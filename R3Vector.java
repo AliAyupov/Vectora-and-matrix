@@ -23,9 +23,11 @@ public class R3Vector {
     }
 
     public static R3Vector minus(R3Vector a, R3Vector b) {
+
         return new R3Vector(a.x - b.x, a.y - b.y, a.z - b.z);
     }
     public static R3Vector mult(R3Vector a, double k) {
+
         return new R3Vector(k*a.x,k*a.y,k*a.z );
     }
     public static double scal(R3Vector a,R3Vector b) {
